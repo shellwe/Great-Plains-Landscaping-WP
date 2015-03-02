@@ -28,6 +28,17 @@ li:after {
 	content: " & ";
 }
 */
-h4{
+h1,h2,h3,h4,h5{
 	font-family: "tenso",sans-serif;
+}
+
+.sidebar{
+	font-size: 1.5 rem;
+	border:#598527 thin ridge;
+	border-radius:25px;
+	background-color:#CDFFCD;
+	
+}
+.blog .content{
+	background:#F5F2D1;
 }

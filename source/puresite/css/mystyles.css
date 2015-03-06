@@ -4,6 +4,11 @@ body{
 	font-size: 10px;
 	background:#CDFFCD;
 }
+header{
+	background:brown;
+	border-bottom:thick groove green;
+}
+
 p{
 	font-family: "proxima-nova",sans-serif;
 	font-size: 1.5rem;
@@ -21,6 +26,7 @@ p{
     text-align: center;
     display: inline-block;
 	font-family: "rooney-web", sans-serif;
+	font-size:1.5 rem;
 }
 .menu ul li:nth-child(3) {
 }
@@ -30,10 +36,11 @@ li:after {
 	content: " & ";
 }
 */
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
 	font-family: "tenso",sans-serif;
-	font-size: 1.6rem;
+	color:green;	
 }
+
 h2 {
 	font-size: 3em;
 }
@@ -51,12 +58,25 @@ h3 {
 	font-family: "proxima-nova",sans-serif;	
 	padding:1rem;
 }
-.sidebar li{
+
+.sidebar ul{
+	padding-left:0 px;
+}
+
+.sidebar ul li{
     list-style-type: none;
-	padding:0px;
-	margin:0px;
 }
 
 .blog, .home, .gallery, .page{
 	background:#FBFAEF;
+}
+
+img-left{
+	float:left;
+	background-color:green;
+}
+
+img-right{
+	float:right;
+	background-color:green;
 }

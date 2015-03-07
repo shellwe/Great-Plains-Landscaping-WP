@@ -44,6 +44,10 @@ h1,h2,h3,h4,h5,h6{
 h2 {
 	font-size: 3em;
 }
+h2 .social-media {
+	float:right;
+}
+
 h3 {
 	font-size: 2em;
 }
@@ -71,12 +75,19 @@ h3 {
 	background:#FBFAEF;
 }
 
-img-left{
+.img-left{
 	float:left;
 	background-color:green;
+	margin-right:1 rem; 
 }
 
-img-right{
+.img-right{
 	float:right;
 	background-color:green;
+	margin-left:1 rem; 
+}
+.banner {
+	padding: 1 rem;
+	font: purple;
+	font-size:2 rem;
 }

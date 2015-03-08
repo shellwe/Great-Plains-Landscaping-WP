@@ -5,7 +5,7 @@ body{
 	background:#CDFFCD;
 }
 header{
-	background:brown;
+	background:#573107;
 	border-bottom:thick groove green;
 }
 
@@ -16,10 +16,13 @@ p{
 /* http://jsfiddle.net/66reH/1/ menu centering example */
 .menu {
     margin-left: 0px auto;
+	font-size: 3rem;
+	color:#598527;
 }
 .menu ul{
     list-style: none;
     text-align: center;
+	padding:0px;
 }
 .menu ul li {
     list-style-type: none;
@@ -90,4 +93,13 @@ h3 {
 	padding: 1 rem;
 	font: purple;
 	font-size:2 rem;
+}
+
+.telephone{
+	font-size:3rem;
+	text-align:right;
+}
+
+.telephone a{
+	color:#ABA000;
 }

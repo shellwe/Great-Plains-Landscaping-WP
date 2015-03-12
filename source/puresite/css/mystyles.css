@@ -3,6 +3,11 @@ body{
 	box-sizing: border-box;
 	font-size: 10px;
 }
+.containter{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+	
 header{
 	background:#573107;
 	border-bottom:thick groove green;

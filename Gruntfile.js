@@ -3,6 +3,17 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+	  sass: {                              // Task
+    dist: {                            // Target
+      options: {                       // Target options
+        style: 'expanded'
+      },
+      files: {                         // Dictionary of files
+//        'source/puresite/test.css': 'source/puresite/test.scss',       // 'destination': 'source'
+        'test.css': 'test.scss',       // 'destination': 'source'
+      }
+    }
+	},
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -14,10 +25,12 @@ module.exports = function(grunt) {
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['sass']);
 
 };

@@ -1,3 +1,4 @@
+    pkg: grunt.file.readJSON('package.json'),
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -13,25 +14,21 @@ module.exports = function(grunt) {
     },
   },
 
-    pkg: grunt.file.readJSON('package.json'),
-	  sass: {                              // Task
-    dist: {                            // Target
-      options: {                       // Target options
-        style: 'expanded'
-      },
-      files: {                         // Dictionary of files
-//        'source/puresite/test.css': 'source/puresite/test.scss',       // 'destination': 'source'
-        'test.css': 'test.scss',       // 'destination': 'source'
-      }
-    }
+	sass: {                              // Task
+		dist: {                            // Target
+		  options: {                       // Target options
+			style: 'expanded'
+		  },
+		  files: {                         // Dictionary of files
+	//        'source/puresite/test.css': 'source/puresite/test.scss',       // 'destination': 'source'
+			'css/style.css': '/sass/style.scss',       // 'destination': 'source'
+		  }
+		}
 	},
     uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
       build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
+        src: 'js/*.js',
+        dest: 'js/build/final.js'
       }
     }
   });

@@ -1,9 +1,9 @@
 /*
 Theme Name: Great Plains Landscaping
-Theme URI: http://underscores.me/
-Author: Automattic
-Author URI: http://automattic.com/
-Description: Hi. I'm a starter theme called <code>Great Plains Landscaping</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Theme URI: http://greatplainslandscapes.com/
+Author: Shawn Hellwege
+Author URI: http://shawnwow.com/
+Description: Website designed for Great Plains Landscapes and created with underscores.
 Version: 1.0-wpcom
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,9 +11,8 @@ Text Domain: Great Plains Landscaping
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 
- Great Plains Landscaping is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Great Plains Landscaping is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -44,13 +43,18 @@ and Blueprint http://www.blueprintcss.org/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
+/*@import "variables-site/variables-site";*/
+/*@import "mixins/mixins-master";*/
+
+/*--------------------------------------------------------------
+0.0 Variables
+--------------------------------------------------------------*/
+@import "my-content/variables";
 
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
-@import "reset";
+@import "layout/reset";
 
 /*--------------------------------------------------------------
 2.0 Typography
@@ -106,3 +110,14 @@ and Blueprint http://www.blueprintcss.org/
 12.0 Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+13.0 Bootstrap
+--------------------------------------------------------------*/
+@import "bootstrap/grid";
+@import "bootstrap/responsive-utilities";
+@import "bootstrap/responsive-embed";
+/*--------------------------------------------------------------
+13.0 My Styles
+--------------------------------------------------------------*/
+@import "my-content/mystyles";

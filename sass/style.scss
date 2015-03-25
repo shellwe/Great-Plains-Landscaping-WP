@@ -52,10 +52,14 @@ and Blueprint http://www.blueprintcss.org/
 @import "my-content/variables";
 
 /*--------------------------------------------------------------
-1.0 Reset
+1.0 Layout
 --------------------------------------------------------------*/
 @import "layout/reset";
-
+@import "layout/header";
+@import "layout/body";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/navigation";
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
@@ -74,7 +78,6 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
-@import "navigation/navigation";
 
 /*--------------------------------------------------------------
 6.0 Accessibility

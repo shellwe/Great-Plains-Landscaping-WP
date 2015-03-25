@@ -1,16 +1,45 @@
-body,
+@import "fontawesome/font-awesome";
+
+@import "copy";
+
+body{
+	font-size:10px;
+}
+
 button,
 input,
 select,
 textarea {
-	color: $color__text-main;
-	font-family: $font__main;
-	@include font-size(1.6);
-	line-height: $font__line-height-body;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: "tenso",sans-serif;
+	color:green;	
+	margin-top:.25rem;
+	margin-bottom:.25rem;
 }
 
-@import "headings";
+h2 {
+	font-size: 3rem;
 
-@import "copy";
+	.social-media {
+		float:right;
+	}
+}
 
-@import "fontawesome/font-awesome";
+h3 {
+	font-size: 2rem;
+}
+
+
+.telephone{
+	font-size:3rem;
+	text-align:right;
+}
+
+.telephone a{
+	color:#ABA000;
+}
+

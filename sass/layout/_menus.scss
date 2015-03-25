@@ -98,3 +98,30 @@
 	text-align: right;
 	width: 50%;
 }
+
+
+/* http://jsfiddle.net/66reH/1/ menu centering example */
+.menu {
+    margin-left: 0px auto;
+	font-size: 3rem;
+	color:#598527;
+	ul{
+		list-style: none;
+		text-align: center;
+		margin:0px;
+	}
+	ul
+	{
+		li {
+			list-style-type: none;
+			text-align: center;
+			display: inline-block;
+			font-family: "rooney-web", sans-serif;
+			font-size:1.5rem;
+			color:$green;
+			}
+			li:nth-child(3) {
+			}
+		}
+	}
+}

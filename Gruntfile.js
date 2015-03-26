@@ -1,44 +1,37 @@
-    pkg: grunt.file.readJSON('package.json'),
 module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-	    autoprefixer: {
-    options: {
-		  browsers: ['last 2 versions', 'ie 8', 'ie 9']
-
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
-
-	sass: {                              // Task
-		dist: {                            // Target
-		  options: {                       // Target options
-			style: 'expanded'
-		  },
-		  files: {                         // Dictionary of files
-	//        'source/puresite/test.css': 'source/puresite/test.scss',       // 'destination': 'source'
-			'css/style.css': '/sass/style.scss',       // 'destination': 'source'
-		  }
+	// Project configuration.
+	grunt.initConfig({
+		autoprefixer: {
+			options: {
+				browsers: ['last 2 versions', 'ie 8', 'ie 9']
+					// Task-specific options go here.
+			},
+			your_target: {
+				// Target-specific file lists and/or options go here.
+			}
+		},
+		//watch: {
+		sass: { // Task
+			dist: { // Target
+				files: {
+					'css/style.css': 'sass/style.scss' // 'destination': 'source'
+				}
+			}
+		},
+		//},
+		uglify: {
+			build: {
+				src: 'js/*.js',
+				dest: 'js/build/final.js'
+			}
 		}
-	},
-    uglify: {
-      build: {
-        src: 'js/*.js',
-        dest: 'js/build/final.js'
-      }
-    }
-  });
-  grunt.loadNpmTasks('grunt-autoprefixer');
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  // Default task(s).
-  grunt.registerTask('default', ['uglify']);
-  grunt.registerTask('default', ['sass']);
-
+	});
+	grunt.loadNpmTasks('grunt-autoprefixer');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	// Default task(s).
+	grunt.registerTask('default', ['sass']);
 };
+
+	

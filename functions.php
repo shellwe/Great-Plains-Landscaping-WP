@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * Great Plains Landscaping functions and definitions
@@ -104,6 +106,7 @@ function gpl_scripts() {
 
 	wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
+	//skip-link-focus-fix has to do with going to a special /#content section designed for screen readers, if I delete this out of the head I shoudl comment this out.
 	wp_enqueue_script( 'gpl-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -135,4 +138,4 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/jetpack.php';
+//require get_template_directory() . '/inc/jetpack.php';

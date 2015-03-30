@@ -8,15 +8,41 @@
  */
 ?>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'gpl' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'gpl' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'gpl' ), 'Great Plains Landscaping', '<a href="http://www.shawnwow.com/" rel="designer">Shawn Hellwege</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+    </div>
+    <footer class="container-fluid" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <address>
+                    Great Plains Landscaping<br>
+                    Some Address<br>
+                    Some city, State Zip
+                    </address>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h2>
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-pinterest-p"></i>
+                    <i class="fa fa-google-plus"></i>
+                    <i class="fa fa-yelp"></i> </h2>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name"><br />
+                        <label for="phone">Telphone:</label>
+                        <input type="tel" name="phone" id="phone"><br />
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"><br />
+                        <label for="textarea">How can we help:<br>
+                        </label>
+                        <textarea name="textarea" id="textarea"></textarea>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

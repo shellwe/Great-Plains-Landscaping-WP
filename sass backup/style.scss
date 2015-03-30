@@ -1,9 +1,9 @@
 /*
 Theme Name: Great Plains Landscaping
-Theme URI: http://greatplainslandscapes.com/
-Author: Shawn Hellwege
-Author URI: http://shawnwow.com/
-Description: Website designed for Great Plains Landscapes and created with underscores.
+Theme URI: http://underscores.me/
+Author: Automattic
+Author URI: http://automattic.com/
+Description: Hi. I'm a starter theme called <code>Great Plains Landscaping</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 Version: 1.0-wpcom
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,8 +11,9 @@ Text Domain: Great Plains Landscaping
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 
-Great Plains Landscaping is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+ Great Plains Landscaping is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -43,24 +44,14 @@ and Blueprint http://www.blueprintcss.org/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
-/*@import "variables-site/variables-site";*/
-/*@import "mixins/mixins-master";*/
-
-/*--------------------------------------------------------------
-0.0 Variables
---------------------------------------------------------------*/
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
 /*--------------------------------------------------------------
-1.0 Layout
+1.0 Reset
 --------------------------------------------------------------*/
 @import "reset";
-@import "layout/header";
-@import "layout/body";
-@import "layout/footer";
-@import "layout/sidebar";
-@import "layout/navigation";
+
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
@@ -79,6 +70,7 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 5.0 Navigation
 --------------------------------------------------------------*/
+@import "navigation/navigation";
 
 /*--------------------------------------------------------------
 6.0 Accessibility
@@ -97,38 +89,20 @@ and Blueprint http://www.blueprintcss.org/
 
 /*--------------------------------------------------------------
 9.0 Widgets
-@import "site/secondary/widgets";
 --------------------------------------------------------------*/
+@import "site/secondary/widgets";
 
 /*--------------------------------------------------------------
 10.0 Content
-@import "site/site";
 --------------------------------------------------------------*/
+@import "site/site";
 
 /*--------------------------------------------------------------
 11.0 Infinite scroll
-@import "modules/infinite-scroll";
 --------------------------------------------------------------*/
+@import "modules/infinite-scroll";
 
 /*--------------------------------------------------------------
 12.0 Media
+--------------------------------------------------------------*/
 @import "media/media";
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-13.0 Bootstrap
---------------------------------------------------------------*/
-
-/*@import "bootstrap/variables";
-@import "bootstrap/mixins/grid";
-@import "bootstrap/mixins/grid-framework";
-@import "bootstrap/grid";
-@import "bootstrap/responsive-utilities";
-@import "bootstrap/responsive-embed";*/
-@import "bootstrap/bs_personal";
-
-
-/*--------------------------------------------------------------
-14.0 My Styles
---------------------------------------------------------------*/
-@import "my-content/mystyles";

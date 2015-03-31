@@ -20,10 +20,10 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gpl' ); ?></a>
-<header class="container-fluid">
+<header class="container-fluid document-header">
     <div class="container">
         <div class="row">
-            <div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3"> <img src="img/logo.png" width="369" height="102" alt=""/> </div>
+            <div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3"> <img src="<?php bloginfo('template_directory'); ?>/source/puresite/img/logo.png" width="369" height="102" alt=""/> </div>
             <div class="telephone col-md-4 col-sm-3 hidden-sm hidden-xs"> <a href="tel:4025707904">402-123-4567</a> </div>
             <nav id="site-navigation" class="site-navigation menu col-md-12 col-sm-6" role="navigation">
                 <button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'gpl' ); ?></button>
@@ -33,3 +33,4 @@
     </div>
 </header>
 <div class="container">
+	<div class="row">

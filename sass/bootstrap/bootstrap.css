@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=22b6a9a2cc0413ce59df)
- * Config saved to config.json and https://gist.github.com/22b6a9a2cc0413ce59df
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=5ea0669afc63a374c01e)
+ * Config saved to config.json and https://gist.github.com/5ea0669afc63a374c01e
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -242,7 +242,9 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive {
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -1014,6 +1016,32 @@ pre code {
   .col-lg-offset-0 {
     margin-left: 0%;
   }
+}
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333333;
 }
 .embed-responsive {
   position: relative;

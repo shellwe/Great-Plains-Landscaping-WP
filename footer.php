@@ -7,8 +7,8 @@
  * @package Great Plains Landscaping
  */
 ?>
-
-    </div>
+		</div> <!--end row-->
+    </div> <!--end container-->
     <footer class="container-fluid" role="contentinfo">
         <div class="container">
             <div class="row">

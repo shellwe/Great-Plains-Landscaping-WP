@@ -5,7 +5,11 @@
 <file name="samplesmall.jpg" server="C:/wamp/www/wordpress/" local="130705998075026704" remote="130705998070000000" Dst="2" />
 <file name="logo.png" server="50.87.248.138//public_html/pure/" local="130696895240000000" remote="130699150200000000" Dst="1" />
 <file name="samplelarge.jpg" server="50.87.248.138//public_html/pure/" local="130696946782044530" remote="130699150200000000" Dst="1" />
-<file name="samplesmall.jpg" server="50.87.248.138//public_html/pure/" local="130705998075026704" remote="130709451600000000" Dst="2" />
-<file name="samplesmallold.jpg" server="50.87.248.138//public_html/pure/" local="130700995776216281" remote="130709451600000000" Dst="2" />
-<file name="samplesmall.psd" server="50.87.248.138//public_html/pure/" local="130706038961689449" remote="130709451600000000" Dst="2" />
+<file name="samplesmall.jpg" server="50.87.248.138//public_html/pure/" local="130705998075026704" remote="130722495600000000" Dst="2" />
+<file name="samplesmallold.jpg" server="50.87.248.138//public_html/pure/" local="130700995776216281" remote="130722495600000000" Dst="2" />
+<file name="samplesmall.psd" server="50.87.248.138//public_html/pure/" local="130706038961689449" remote="130722495600000000" Dst="2" />
+<file name="backtest.jpg" server="C:/wamp/www/wordpress/" local="130722504275839163" remote="130722504270000000" Dst="2" />
+<file name="sky.jpg" server="C:/wamp/www/wordpress/" local="130722517687962143" remote="130722517680000000" Dst="2" />
+<file name="backtest.jpg" server="50.87.248.138//public_html/pure/" local="130722504275839163" remote="130722495600000000" Dst="2" />
+<file name="sky.jpg" server="50.87.248.138//public_html/pure/" local="130722520891073719" remote="130722495600000000" Dst="2" />
 </dwsync>

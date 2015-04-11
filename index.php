@@ -1,10 +1,10 @@
 <?php
 get_header(); ?>
-<div class="content-area container" id="primary">
+<div class="content-area container" id="primary" role="main">
 	<div class="row">
-		<div class="col-md-12"> <img src="img/samplelarge.jpg" alt="" class="img-responsive img-thumbnail" /> </div>
+		<div class="col-md-12"> <img src="source/puresite/img/samplelarge.jpg" alt="" class="img-responsive img-thumbnail" /> </div>
 	</div>
-	<div class="row">
+	<main class="row">
 		<div class="col-md-4">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vl0nmm1aVtA"></iframe>
@@ -19,6 +19,6 @@ get_header(); ?>
 			
 			</div>
 		</div>
-	</div>
+	</main>
 </div>
 <?php get_footer(); ?>

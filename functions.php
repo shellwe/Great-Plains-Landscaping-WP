@@ -11,7 +11,7 @@
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 850; /* pixels */
+	$content_width = 1140; /* pixels */
 }
 
 if ( ! function_exists( 'gpl_setup' ) ) :
@@ -102,8 +102,8 @@ add_action( 'widgets_init', 'gpl_widgets_init' );
  * Enqueue scripts and styles.
  */
 function gpl_scripts() {
+	wp_enqueue_style( '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', get_stylesheet_uri() );
 	wp_enqueue_style( 'gpl-style', get_stylesheet_uri() );
-
 	wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	//skip-link-focus-fix has to do with going to a special /#content section designed for screen readers, if I delete this out of the head I shoudl comment this out.
@@ -142,3 +142,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 //require get_template_directory() . '/inc/jetpack.php';
+
+?>
+
+

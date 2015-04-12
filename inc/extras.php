@@ -17,7 +17,8 @@ function gpl_page_menu_args( $args ) {
 	$args['show_home'] = true;
 	return $args;
 }
-add_filter( 'wp_page_menu_args', 'gpl_page_menu_args' );
+//This line below adds the "Home" link in the menu.
+//add_filter( 'wp_page_menu_args', 'gpl_page_menu_args' );
 
 /**
  * Adds custom classes to the array of body classes.

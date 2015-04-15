@@ -3,4 +3,26 @@
 <file name="functions.php" server="C:/wamp/www/wordpress/" local="130718957964936332" remote="130718957960000000" Dst="2" />
 <file name="single.php" server="C:/wamp/www/wordpress/" local="130625740271833613" remote="130625740270000000" Dst="2" />
 <file name="header.php" server="C:/wamp/www/wordpress/" local="130718967668353763" remote="130718967660000000" Dst="2" />
+<file name="archive.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735462673640087" remote="130735458600000000" Dst="2" />
+<file name="404.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740273913728" remote="130735458600000000" Dst="2" />
+<file name="comments.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740271423596" remote="130735458600000000" Dst="2" />
+<file name="content-page.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740269663489" remote="130735458600000000" Dst="2" />
+<file name="content-search.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740270643564" remote="130735458600000000" Dst="2" />
+<file name="content-none.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740273613721" remote="130735458600000000" Dst="2" />
+<file name="content-single.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740270413640" remote="130735458600000000" Dst="2" />
+<file name="content.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740272093638" remote="130735458600000000" Dst="2" />
+<file name="footer.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130732388910589014" remote="130735458600000000" Dst="2" />
+<file name="front-page.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735463575997877" remote="130735458600000000" Dst="2" />
+<file name="functions.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735424571310695" remote="130735458600000000" Dst="2" />
+<file name="header.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130734554963244680" remote="130735458600000000" Dst="2" />
+<file name="home.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735462879758646" remote="130735458600000000" Dst="2" />
+<file name="index.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735462897058304" remote="130735458600000000" Dst="2" />
+<file name="page.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735459786650487" remote="130735458600000000" Dst="2" />
+<file name="package.json" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130730268906029397" remote="130735458600000000" Dst="2" />
+<file name="README.md" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130625740269103462" remote="130735458600000000" Dst="2" />
+<file name="sidebar.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130722390178308874" remote="130735458600000000" Dst="2" />
+<file name="search.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130732388917999510" remote="130735458600000000" Dst="2" />
+<file name="single.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130735458547672898" remote="130735458600000000" Dst="2" />
+<file name="style.css.map" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130722394388122103" remote="130735458600000000" Dst="2" />
+<file name="style.css" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130722394380611668" remote="130735458600000000" Dst="2" />
 </dwsync>

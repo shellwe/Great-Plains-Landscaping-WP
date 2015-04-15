@@ -1,13 +1,4 @@
-<?php
-/**
- * The template for displaying archive pages.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package Great Plains Landscaping
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 <div class="page container">
 	<div class="row">
 	   <main id="primary" class="content-area content col-md-9">
@@ -44,7 +35,7 @@ get_header(); ?>
 
         </main><!-- #main -->
 
-        <?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
     </div>
 </div>
 <?php get_footer(); ?>

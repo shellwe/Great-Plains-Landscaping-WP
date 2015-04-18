@@ -101,7 +101,7 @@ add_action( 'widgets_init', 'gpl_widgets_init' );
  */
 function gpl_scripts() {
     //wp_enqueue_script('jquery');
-	wp_enqueue_style( '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', get_stylesheet_uri() );
+	wp_enqueue_style( 'fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'gpl-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 

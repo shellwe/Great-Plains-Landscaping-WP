@@ -1,7 +1,10 @@
-<?php get_header(); ?>
+<?php get_header();
+$isStandardCustom = has_post_format( 'Standard' );
+$isGalleryCustom = has_post_format( 'Gallery' );
+?>
 <div id="primary" class="content-area page container">
     <div class="row">
-		<main id="main" class="site-main col-md-9" role="main">
+		<main id="main" class="site-main <?php if (has_post_format( 'Standard' )) {echo "col-md-9"; } else {echo "col-md-12";}?> " role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -12,7 +15,7 @@
 		<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
-        <?php get_sidebar(); ?>
+        <?php if (has_post_format( 'Standard' )) { get_sidebar(); }?>
     </div>
 </div><!-- #primary -->
 <?php get_footer(); ?>

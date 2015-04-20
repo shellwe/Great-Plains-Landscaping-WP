@@ -12,17 +12,20 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <address>
-                    Great Plains Landscaping<br>
-                    Some Address<br>
-                    Some city, State Zip
+                    <h2>
+						<a href="https://www.facebook.com/GreatPlainsLandscaping" target="new"><i class="fa fa-facebook-official"></i></a>
+						<a href="https://www.pinterest.com/greatplainsland/" target="new"><i class="fa fa-pinterest-p"></i></a>
+						<a href="https://plus.google.com/107837644911414833271/" target="new"><i class="fa fa-google-plus"></i></a>
+						<a href="http://www.yelp.com/biz/great-plains-landscapes-lincoln" target="new"><i class="fa fa-yelp"></i></a>
+					</h2>
+					Great Plains Landscaping & Design Inc.<br>
+					P.O. Box 383<br>
+					Bennet, NE 68317-0383<br>
+					402-417-6906
                     </address>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <h2>
-                    <i class="fa fa-facebook-official"></i>
-                    <i class="fa fa-pinterest-p"></i>
-                    <i class="fa fa-google-plus"></i>
-                    <i class="fa fa-yelp"></i> </h2>
+					this is where the facebook feed goes
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <form>

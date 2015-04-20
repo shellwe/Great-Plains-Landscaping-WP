@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="primary" class="content-area page container">
+<div id="primary page-layout" class="content-area page container">
     <div class="row">
 		<main id="main" class="site-main col-md-12" role="main">
 

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="page container">
 	<div class="row">
-	   <main id="primary" class="content-area content col-md-9">
+	   <main id="primary" class="content-area content col-md-9 col-sm-8">
 
             <?php if ( have_posts() ) : ?>
 

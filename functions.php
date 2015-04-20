@@ -101,9 +101,9 @@ add_action( 'widgets_init', 'gpl_widgets_init' );
  */
 function gpl_scripts() {
     //wp_enqueue_script('jquery');
-	wp_enqueue_style( 'fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+	wp_enqueue_style( 'gpl-fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'gpl-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	//wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	//skip-link-focus-fix has to do with going to a special /#content section designed for screen readers, if I delete this out of the head I shoudl comment this out.
 	wp_enqueue_script( 'gpl-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );

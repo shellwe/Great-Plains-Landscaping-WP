@@ -18,6 +18,16 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18166885-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <div id="page" class="hfeed site">
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gpl' ); ?></a>
 <header class="container-fluid document-header">
@@ -38,31 +48,19 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand hidden-md hidden-lg" href="#">Great Plains Landscaping</a>
+			<a class="navbar-brand hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
+			<?php /* Primary navigation */
+			wp_nav_menu( array(
+			  'menu' => 'top_menu',
+			  'depth' => 2,
+			  'container' => false,
+			  'menu_class' => 'nav',
+			  //Process nav menu using our custom nav walker
+			  'walker' => new wp_bootstrap_navwalker())
+			);
+			?>
           </div><!--/.nav-collapse -->
       </nav>
 

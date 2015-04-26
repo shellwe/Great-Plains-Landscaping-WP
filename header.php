@@ -37,37 +37,30 @@
 				<img src="<?php bloginfo('template_directory'); ?>/source/puresite/img/logo.png" width="369" height="102" alt=""/>
 			</div>
 		</div>
-
-
-
-      <nav class="navbar navbar-default">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+		<nav class="navbar navbar-default" role="navigation"> 
+		<!-- Brand and toggle get grouped for better mobile display --> 
+		  <div class="navbar-header"> 
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+			  <span class="sr-only">Toggle navigation</span> 
+			  <span class="icon-bar"></span> 
+			  <span class="icon-bar"></span> 
+			  <span class="icon-bar"></span> 
+			</button> 
 			<a class="navbar-brand hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
+		  </div> 
+		  <!-- Collect the nav links, forms, and other content for toggling --> 
+		  <div class="collapse navbar-collapse navbar-ex1-collapse"> 
 			<?php /* Primary navigation */
 			wp_nav_menu( array(
 			  'menu' => 'top_menu',
 			  'depth' => 2,
 			  'container' => false,
-			  'menu_class' => 'nav',
+			  'menu_class' => 'nav navbar-nav',
 			  //Process nav menu using our custom nav walker
 			  'walker' => new wp_bootstrap_navwalker())
 			);
 			?>
-          </div><!--/.nav-collapse -->
-      </nav>
-
-
-<!--		<nav id="site-navigation" class="site-navigation menu col-md-12 col-sm-6" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php // _e( 'Primary Menu', 'gpl' ); ?></button>
-			<?php // wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav>-->
+		  </div>
+		</nav>
     </div>
 </header>

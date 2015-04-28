@@ -28,6 +28,8 @@
 			</div>
 		</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 		<nav class="navbar navbar-default" role="navigation"> 
 		<!-- Brand and toggle get grouped for better mobile display --> 
 		  <div class="navbar-header"> 
@@ -37,20 +39,39 @@
 			  <span class="icon-bar"></span> 
 			  <span class="icon-bar"></span> 
 			</button> 
+=======
+=======
+>>>>>>> parent of 3210436... Got the nav working for desktop
+
+
+
+      <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+<<<<<<< HEAD
+>>>>>>> parent of 3210436... Got the nav working for desktop
+=======
+>>>>>>> parent of 3210436... Got the nav working for desktop
 			<a class="navbar-brand hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
-		  </div> 
-		  <!-- Collect the nav links, forms, and other content for toggling --> 
-		  <div class="collapse navbar-collapse navbar-ex1-collapse"> 
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
 			<?php /* Primary navigation */
 			wp_nav_menu( array(
 			  'menu' => 'top_menu',
 			  'depth' => 2,
 			  'container' => false,
-			  'menu_class' => 'nav navbar-nav',
+			  'menu_class' => 'nav',
 			  //Process nav menu using our custom nav walker
 			  'walker' => new wp_bootstrap_navwalker())
 			);
 			?>
+<<<<<<< HEAD
+<<<<<<< HEAD
 		  </div>
 =======
 
@@ -107,5 +128,20 @@
 =======
 >>>>>>> parent of 8f0063f... forgot to include header
 		</nav>
+=======
+=======
+>>>>>>> parent of 3210436... Got the nav working for desktop
+          </div><!--/.nav-collapse -->
+      </nav>
+
+
+<!--		<nav id="site-navigation" class="site-navigation menu col-md-12 col-sm-6" role="navigation">
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php // _e( 'Primary Menu', 'gpl' ); ?></button>
+			<?php // wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav>-->
+<<<<<<< HEAD
+>>>>>>> parent of 3210436... Got the nav working for desktop
+=======
+>>>>>>> parent of 3210436... Got the nav working for desktop
     </div>
 </header>

@@ -139,6 +139,9 @@ require get_template_directory() . '/inc/extras.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+require_once('wp_bootstrap_navwalker.php');
+
+
 /**
  * Load Jetpack compatibility file.
  */

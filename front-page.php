@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6">
-			<div class="banner">We now specialize in Epoxy protective flooring!</div>
+			<div class="banner">This is some banner text</div>
 		</div>
 		<div class="col-md-4 col-sm-6">
 			<div class="banner">

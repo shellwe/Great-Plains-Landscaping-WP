@@ -25,7 +25,7 @@
                     </address>
                 </div>
                 <div class="col-md-4 col-sm-6">
-					<?php [custom-facebook-feed] ?>
+					this is where the facebook feed goes
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <form>

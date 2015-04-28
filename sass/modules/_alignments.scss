@@ -1,0 +1,27 @@
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	@include center-block;
+}
+
+.img-left{
+	float:left;
+	background-color:green;
+	margin-right:1rem; 
+}
+
+.img-right{
+	float:right;
+	background-color:green;
+	margin-left:1rem; 
+}

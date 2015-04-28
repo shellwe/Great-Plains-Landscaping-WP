@@ -1,0 +1,147 @@
+/* CSS Document */
+body{
+	box-sizing: border-box;
+	font-size: 10px;
+}
+.containter{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+	
+header{
+	background:#573107;
+	border-bottom:thick groove green;
+}
+
+p{
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1.5rem;
+}
+/* http://jsfiddle.net/66reH/1/ menu centering example */
+.menu {
+    margin-left: 0px auto;
+	font-size: 3rem;
+	color:#598527;
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+	margin:0px;
+}
+.menu ul li {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+	font-family: "rooney-web", sans-serif;
+	font-size:1.5rem;
+	color:green;
+}
+.menu ul li:nth-child(3) {
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "tenso",sans-serif;
+	color:green;	
+	margin-top:.25rem;
+	margin-bottom:.25rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+h2 .social-media {
+	float:right;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.sidebar{
+	font-size: 2rem;
+	text-align:center;
+	border: #598527 medium ridge;
+	border-radius: 25px;
+	background-color: #CDFFCD;
+	text-align:center;
+	font-family: "proxima-nova",sans-serif;	
+	padding:1rem;
+}
+
+.sidebar ul{
+	padding-left: 0px;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+}
+
+.blog, .home, .gallery, .page{
+	background-color:rgba(255, 255, 255, 0.75);
+}
+
+.img-left{
+	float:left;
+	background-color:green;
+	margin-right:1rem; 
+}
+
+.img-right{
+	float:right;
+	background-color:green;
+	margin-left:1rem; 
+}
+.banner {
+	padding:1rem;
+	font: purple;
+	font-size:2rem;
+}
+
+.telephone{
+	font-size:3rem;
+	text-align:right;
+}
+
+.telephone a{
+	color:#ABA000;
+}
+.photo-gallery img {
+	margin-bottom:2rem;
+}
+/*.photo-gallery img:before {
+   position: absolute;
+   right: 80px;
+   bottom: 5px;
+   width: 100%;
+   height: 37%;
+   border-radius: 0 10% 0 0;
+   z-index: -1;
+   content: "";
+   box-shadow: 86px 0 17px rgba(0,0,0,0.33);
+   -webkit-transform: skew(-36deg);
+   -moz-transform: skew(-36deg);
+   -ms-transform: skew(-36deg);
+   -o-transform: skew(-36deg);
+   transform: skew(-36deg);
+   -webkit-transform-origin: 0% 100%;
+   -moz-transform-origin: 0% 100%;
+   -ms-transform-origin: 0% 100%;
+   -o-transform-origin: 0% 100%;
+   transform-origin: 0% 100%;
+}
+*/
+.photo-gallery img:hover {
+	background-color:green;
+	transform: scale(1.1);
+
+}
+body{
+	background-image:url(../img/backtest.jpg)
+}
+header{
+        background: url(../img/sky.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}

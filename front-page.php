@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 <div class="content-area container" id="primary" role="main">
 	<div class="row">
-		<div class="col-md-12"> <img src="source/puresite/img/samplelarge.jpg" alt="" class="img-responsive img-thumbnail" /> </div>
+		<div class="col-md-12">
+            <?php wp_get_attachment_image( 4, large, false, $default_attr ); ?>
+        </div>
 	</div>
 	<main class="row">
 		<div class="col-md-4">

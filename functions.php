@@ -100,7 +100,7 @@ add_action( 'widgets_init', 'gpl_widgets_init' );
  * Enqueue scripts and styles.
  */
 function gpl_scripts() {
-    //wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery');
 	wp_enqueue_style( 'gpl-fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'gpl-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'bootstrapcss','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css');

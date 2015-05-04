@@ -27,9 +27,21 @@
                 <div class="col-md-4 col-sm-6">
 					<?php echo do_shortcode('[custom-facebook-feed]'); ?>
                 </div>
-                <div class="col-md-4 col-sm-12">
-					<?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
-                </div>
+				<div class="col-md-4 col-sm-12">
+                    <form method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="phone">Telphone:</label>
+                        <input type="tel" name="phone" id="phone"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="textarea">How can we help:<br>
+                        </label>
+                        <textarea name="textarea" id="textarea"></textarea>
+						<div class="g-recaptcha" data-sitekey="6LfJSQYTAAAAAGB3Z6V_5U6QmxvR1ftc24vUU9dt"></div>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+                </div>					
             </div>
         </div>
     </footer>

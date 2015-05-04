@@ -15,6 +15,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <script src="//use.typekit.net/hkh2smp.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

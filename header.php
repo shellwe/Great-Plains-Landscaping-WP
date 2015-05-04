@@ -34,7 +34,7 @@
     <div class="container">
         <div class="row">
             <div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-				<img src="<?php bloginfo('template_directory'); ?>/source/puresite/img/logo.png" width="369" height="102" alt=""/>
+				<?php echo wp_get_attachment_image( 108, medium, false, $default_attr ); ?>
 			</div>
 		</div>
 		<nav class="navbar navbar-default" role="navigation"> 
@@ -46,7 +46,7 @@
 			  <span class="icon-bar"></span> 
 			  <span class="icon-bar"></span> 
 			</button> 
-			<a class="navbar-brand hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
+			<a class="navbar-brand hidden-sm hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
 		  </div> 
 		  <!-- Collect the nav links, forms, and other content for toggling --> 
 		  <div class="collapse navbar-collapse navbar-ex1-collapse"> 

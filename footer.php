@@ -28,19 +28,26 @@
 					<?php echo do_shortcode('[custom-facebook-feed]'); ?>
                 </div>
 				<div class="col-md-4 col-sm-12">
-                    <form method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name"><br>
-                        <label for="phone">Telphone:</label>
-                        <input type="tel" name="phone" id="phone"><br>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email"><br>
-                        <label for="textarea">How can we help:<br>
-                        </label>
-                        <textarea name="textarea" id="textarea"></textarea>
+					<form method="post">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="form-name" placeholder="What is your name?" required>
+						</div>
+						<div class="form-group">
+							<label for="telephone">Phone</label>
+							<input type="tel" class="form-control" id="form-telephone" placeholder="How can we reach you?" required>
+						</div>
+						<div class="form-group">
+							<label for="email">E-mail address</label>
+							<input type="email" class="form-control" id="form-email" placeholder="What is your e-mail address">
+						</div>
+						<div class="form-group">
+							<label for="description">How may we help?</label>
+							<input type="textarea" class="form-control" id="form-description" placeholder="How may we help you?">
+						</div>
 						<div class="g-recaptcha" data-sitekey="6LfJSQYTAAAAAGB3Z6V_5U6QmxvR1ftc24vUU9dt"></div>
-                        <input type="submit" name="submit" id="submit" value="Submit">
-                    </form>
+						<button type="submit" name="submit" id="form-submit" value="Submit" class="btn btn-default">Submit</button>
+					</form>				
                 </div>					
             </div>
         </div>

@@ -59,5 +59,6 @@ results
 npm-debug.log
 node_modules
 ReCaptcha
+response.php
 
 .sass-cache

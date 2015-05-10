@@ -31,19 +31,19 @@
 					<form method="post">
 						<div class="form-group">
 							<label for="name">Name</label>
-							<input type="text" class="form-control" id="form-name" placeholder="What is your name?" required>
+							<input type="text" name="name" class="form-control" id="form-name" placeholder="What is your name?" required>
 						</div>
 						<div class="form-group">
 							<label for="telephone">Phone</label>
-							<input type="tel" class="form-control" id="form-telephone" placeholder="How can we reach you?" required>
+							<input type="tel" name="telephone" class="form-control" id="form-telephone" placeholder="How can we reach you?" required>
 						</div>
 						<div class="form-group">
 							<label for="email">E-mail address</label>
-							<input type="email" class="form-control" id="form-email" placeholder="What is your e-mail address">
+							<input type="email" name="email" class="form-control" id="form-email" placeholder="What is your e-mail address">
 						</div>
 						<div class="form-group">
-							<label for="description">How may we help?</label>
-							<input type="textarea" class="form-control" id="form-description" placeholder="How may we help you?">
+							<label for="comment">How may we help?</label>
+							<input type="textarea" name="comment" class="form-control" id="form-comment" placeholder="How may we help you?">
 						</div>
 						<div class="g-recaptcha" data-sitekey="6LfJSQYTAAAAAGB3Z6V_5U6QmxvR1ftc24vUU9dt"></div>
 						<button type="submit" name="submit" id="form-submit" value="Submit" class="btn btn-default">Submit</button>

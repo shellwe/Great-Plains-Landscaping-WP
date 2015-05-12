@@ -35,7 +35,7 @@
     <div class="container">
         <div class="row">
             <div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-				<?php echo wp_get_attachment_image( 108, medium, false, $default_attr ); ?>
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
 			</div>
 		</div>
 		<nav class="navbar navbar-default" role="navigation"> 

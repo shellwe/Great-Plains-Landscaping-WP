@@ -132,16 +132,14 @@ document-header {
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
 body {
   box-sizing: border-box;
-  font-size: 10px; }
+  font-size: 10px;
+  background-image: url(img/background.jpg);
+  background-repeat: repeat; }
 
-/* line 5, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
+/* line 7, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
 .containter {
   padding-top: 1rem;
   padding-bottom: 1rem; }
-
-/* line 9, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
-.blog, .home, .gallery, .page {
-  background: #FBFAEF; }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_sidebar.scss */
 .sidebar {

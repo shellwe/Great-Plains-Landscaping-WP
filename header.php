@@ -6,7 +6,8 @@
  *
  * @package Great Plains Landscaping
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -30,38 +31,14 @@
 
 </script>
 <div id="page" class="hfeed site">
-<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gpl' ); ?></a>
+<a class="skip-link screen-reader-text" href="#content">
+<?php _e( 'Skip to content', 'gpl' ); ?>
+</a>
 <header class="container-fluid document-header">
-    <div class="container">
-        <div class="row">
-            <div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
-			</div>
+	<div class="container">
+		<div class="row">
+			<div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3"> <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"> </div>
 		</div>
-		<nav class="navbar navbar-default" role="navigation"> 
-		<!-- Brand and toggle get grouped for better mobile display --> 
-		  <div class="navbar-header"> 
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
-			  <span class="sr-only">Toggle navigation</span> 
-			  <span class="icon-bar"></span> 
-			  <span class="icon-bar"></span> 
-			  <span class="icon-bar"></span> 
-			</button> 
-			<a class="navbar-brand hidden-sm hidden-md hidden-lg" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
-		  </div> 
-		  <!-- Collect the nav links, forms, and other content for toggling --> 
-		  <div class="collapse navbar-collapse navbar-ex1-collapse"> 
-			<?php /* Primary navigation */
-			wp_nav_menu( array(
-			  'menu' => 'Primary Menu',
-			  'depth' => 2,
-			  'container' => false,
-			  'menu_class' => 'nav navbar-nav',
-			  //Process nav menu using our custom nav walker
-			  'walker' => new wp_bootstrap_navwalker())
-			);
-			?>
-		  </div>
-		</nav>
-    </div>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container' => 'nav' ) ); ?>
+	</div>
 </header>

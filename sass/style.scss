@@ -120,12 +120,13 @@ and Blueprint http://www.blueprintcss.org/
 13.0 Bootstrap
 --------------------------------------------------------------*/
 
-/*@import "bootstrap/variables";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/responsive-visibility.scss";
 @import "bootstrap/mixins/grid";
 @import "bootstrap/mixins/grid-framework";
 @import "bootstrap/grid";
 @import "bootstrap/responsive-utilities";
-@import "bootstrap/responsive-embed";*/
+@import "bootstrap/responsive-embed";
 //@import "bootstrap/bs_personal";
 
 

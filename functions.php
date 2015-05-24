@@ -83,17 +83,11 @@ add_action( 'after_setup_theme', 'gpl_setup' );
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-function gpl_widgets_init() {
-	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'gpl' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus( array(
+		'primary' => __( 'Primary Menu', 'gpl' ),
 	) );
-}
+
 add_action( 'widgets_init', 'gpl_widgets_init' );
 
 
@@ -107,11 +101,11 @@ $default_attr = array(
  * Enqueue scripts and styles.
  */
 function gpl_scripts() {
-    wp_enqueue_script('jquery');
+    //wp_enqueue_script('jquery');
 	wp_enqueue_style( 'gpl-fontawesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'gpl-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'bootstrapcss','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css');
-	wp_enqueue_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' );
+	//wp_enqueue_style( 'bootstrapcss','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css');
+	//wp_enqueue_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' );
 	//wp_enqueue_script( 'gpl-navigation', get_template_directory_uri() . '/js/bs_menu.js');
 
 	//skip-link-focus-fix has to do with going to a special /#content section designed for screen readers, if I delete this out of the head I shoudl comment this out.

@@ -83,10 +83,21 @@ add_action( 'after_setup_theme', 'gpl_setup' );
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'gpl' ),
+function gpl_widgets_init() {
+	register_sidebar( array(
+		'name'          => __( 'Sidebar', 'gpl' ),
+		'id'            => 'sidebar-1',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
+}
+
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu', 'gpl' ),
+) );
 
 add_action( 'widgets_init', 'gpl_widgets_init' );
 
@@ -139,9 +150,6 @@ require get_template_directory() . '/inc/extras.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
-
-require_once('wp_bootstrap_navwalker.php');
-
 
 /**
  * Load Jetpack compatibility file.

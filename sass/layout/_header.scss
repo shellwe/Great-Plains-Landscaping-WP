@@ -1,9 +1,5 @@
 .document-header{
-    // needs latest Compass, add '@import "compass"' to your scss
-    background-color: rgb(64,150,238); // Old browsers
-    @include filter-gradient(#4096ee, #7abcff, vertical); // IE6-9
-    @include background-image(linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%));
-
+	background:white;
 	border-bottom:thick groove green;
 }
 .logo{

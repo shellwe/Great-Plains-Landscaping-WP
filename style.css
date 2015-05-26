@@ -136,7 +136,23 @@ a img {
 
 .document-header {
   background: white;
-  border-bottom: thick groove green; }
+  border-bottom: thick groove green;
+  background: #4096ee;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4096ee 0%, #7abcff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4096ee), color-stop(100%, #7abcff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4096ee 0%, #7abcff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4096ee 0%, #7abcff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4096ee 0%, #7abcff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4096ee 0%, #7abcff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#7abcff',GradientType=0 );
+  /* IE6-9 */ }
 
 .logo {
   padding: .5rem 0; }

@@ -1,6 +1,19 @@
 .document-header{
 	background:white;
 	border-bottom:thick groove green;
+    background: rgb(64,150,238); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(64,150,238,1) 0%, rgba(122,188,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,150,238,1)), color-stop(100%,rgba(122,188,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#7abcff',GradientType=0 ); /* IE6-9 */
+    // needs latest Compass, add '@import "compass"' to your scss
+    //background-color: rgb(64,150,238); // Old browsers
+    //@include filter-gradient(#4096ee, #7abcff, vertical); // IE6-9
+    //@include background-image(linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%));
+
 }
 .logo{
     padding: .5rem 0;

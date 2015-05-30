@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <address>
-                    <h2>
+                    <h2 class="social-media">
 						<a href="https://www.facebook.com/GreatPlainsLandscaping" target="new"><i class="fa fa-facebook-official"></i></a>
 						<a href="https://www.pinterest.com/greatplainsland/" target="new"><i class="fa fa-pinterest-p"></i></a>
 						<a href="https://plus.google.com/107837644911414833271/" target="new"><i class="fa fa-google-plus"></i></a>

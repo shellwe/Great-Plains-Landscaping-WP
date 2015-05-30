@@ -25,5 +25,8 @@
 			</div>
 		</div>
 	</div>
+	<div class="row">
+        <br><br><br><br><br><br><br>
+    </div>
 </div>
 <?php get_footer(); ?>

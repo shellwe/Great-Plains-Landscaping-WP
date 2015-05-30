@@ -14,7 +14,25 @@
     //@include filter-gradient(#4096ee, #7abcff, vertical); // IE6-9
     //@include background-image(linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%));
 
-}
-.logo{
-    padding: .5rem 0;
+    .logo{
+        padding: .5rem 0;
+    }
+    
+    nav{
+       ul{
+           li{
+               border: #AAAAAA inset thin;
+               background-color: #cccccc;
+               padding: 0 .5rem;
+               text-align: center;
+               a{
+                   text-align: center;
+                   color: $green;
+                   &:hover{
+                       text-decoration: none;
+                   }
+               }
+           }
+       }
+    }
 }

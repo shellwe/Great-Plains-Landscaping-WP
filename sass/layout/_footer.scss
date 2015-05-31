@@ -1,8 +1,12 @@
 footer{
     background: $green;
+    border-top: $logo-brown thick inset;
     color: white;
     
     .social-media i{
-        color:white;
+        color:$logo-red;
+        &:hover{
+            color:$logo-brown;
+        }
     }
 }

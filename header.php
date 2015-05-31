@@ -37,7 +37,7 @@
 <header class="container-fluid document-header">
 	<div class="container">
 		<div class="row">
-			<div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3"> <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"> </div>
+			<div class="logo col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1"> <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"> </div>
 		</div>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container' => 'nav' ) ); ?>
 	</div>

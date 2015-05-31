@@ -15,7 +15,9 @@
     //@include background-image(linear-gradient(top,  rgba(64,150,238,1) 0%,rgba(122,188,255,1) 100%));
 
     .logo{
-        padding: .5rem 0;
+        img{
+            padding: .5rem 0;
+        }
     }
     
     nav{
@@ -25,14 +27,26 @@
                background-color: #cccccc;
                padding: 0 .5rem;
                text-align: center;
+               &:hover{
+                   color:$logo-brown;
+               }
                a{
+                   text-shadow: 0px 1px 1px #4d4d4d;
+                   color: #222;
                    text-align: center;
-                   color: $green;
+                   font-weight: bold;
                    &:hover{
                        text-decoration: none;
                    }
                }
            }
        }
+    }
+}
+@media (max-width: 768px) {
+    nav{
+        a{
+            padding: .5em 0;
+        }
     }
 }

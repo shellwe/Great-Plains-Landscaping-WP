@@ -1,12 +1,20 @@
 footer{
-    background: $green;
-    border-top: $logo-brown thick inset;
+    background: $logo-green;
+    border-top: $logo-red thick inset;
     color: white;
     
     .social-media i{
-        color:$logo-red;
+        color:white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $green;
         &:hover{
             color:$logo-brown;
         }
+    }
+    address{
+        font-size: 2rem;
+    }
+    form{
+        border: solid white thin;
     }
 }

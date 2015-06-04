@@ -6494,23 +6494,24 @@ body {
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
 footer {
   background: #598527;
-  border-top: #A0420D thick inset;
-  color: white; }
-  /* line 6, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  footer .social-media i {
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #008000; }
-    /* line 10, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-    footer .social-media i:hover {
-      color: #371110; }
-  /* line 14, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  footer address {
-    font-size: 2rem; }
-  /* line 17, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  footer form {
-    border: solid #008000 thin;
+  border-top: #A0420D thick inset; }
+  /* line 4, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+  footer address, footer form {
+    background-image: url(img/background.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset medium #A0420D;
+    color: #371110;
+    margin-top: 1rem;
+    font-size: 2rem;
     padding: 1rem; }
+    /* line 13, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+    footer address .social-media i, footer form .social-media i {
+      color: #ABA000;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #008000; }
+      /* line 17, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+      footer address .social-media i:hover, footer form .social-media i:hover {
+        color: #371110; }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_sidebar.scss */
 .sidebar {

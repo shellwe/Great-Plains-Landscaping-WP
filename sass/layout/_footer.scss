@@ -1,21 +1,27 @@
-footer{
+footer {
     background: $logo-green;
     border-top: $logo-red thick inset;
-    color: white;
-    
-    .social-media i{
-        color:white;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: $green;
-        &:hover{
-            color:$logo-brown;
+    address, form {
+        background-image: url(img/background.jpg);
+        background-color: rgba(255, 255, 255, .5);
+        border: inset medium $logo-red;
+        color: $logo-brown;
+        margin-top: 1rem;
+        font-size: 2rem;
+        padding: 1rem;
+        .social-media{
+            i {
+                color: $logo-yellow;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $green;
+                &:hover {
+                    color: $logo-brown;
+                }
+            }
         }
     }
-    address{
-        font-size: 2rem;
-    }
-    form{
-        border: solid $green thin;
-        padding: 1rem;
-    }
+    //    form{
+    //        border: solid $green thin;
+    //        padding: 1rem;
+    //    }
 }

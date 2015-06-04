@@ -5823,18 +5823,19 @@ body {
 
 footer {
   background: #598527;
-  border-top: #A0420D thick inset;
-  color: white; }
-  footer .social-media i {
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #008000; }
-    footer .social-media i:hover {
-      color: #371110; }
-  footer address {
-    font-size: 2rem; }
-  footer form {
-    border: solid white thin; }
+  border-top: #A0420D thick inset; }
+  footer address, footer form {
+    background-image: url(img/background.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset medium #A0420D;
+    color: #371110;
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding: 1rem; }
+    footer address .social-media i, footer form .social-media i {
+      color: #ABA000; }
+      footer address .social-media i:hover, footer form .social-media i:hover {
+        color: #371110; }
 
 .sidebar {
   font-size: 2rem;

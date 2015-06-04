@@ -28,7 +28,7 @@
                     <h2>Facebook News</h2>
 					<?php echo do_shortcode('[custom-facebook-feed]'); ?>
                 </div>
-				<div class="col-md-4 col-sm-12">
+				<div class=" col-md-4 col-sm-12">
 					<form method="post">
 						<div class="form-group">
 							<label for="name">Name</label>

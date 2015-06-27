@@ -5826,6 +5826,9 @@ body {
 footer {
   background: #598527;
   border-top: #A0420D thick inset; }
+  footer .cff-wrapper {
+    margin-top: 1rem;
+    border: inset medium #A0420D; }
   footer address, footer form {
     background-image: url(img/background.jpg);
     background-color: rgba(255, 255, 255, 0.5);

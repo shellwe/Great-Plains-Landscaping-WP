@@ -4,6 +4,10 @@ footer {
 //        -webkit-text-stroke: 1px $green;
 //        text-stroke: 1px $green;
 //    }
+    .cff-wrapper{
+        margin-top: 1rem;
+        border: inset medium $logo-red;
+    }
     background: $logo-green;
     border-top: $logo-red thick inset;
     address, form {

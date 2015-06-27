@@ -5798,14 +5798,16 @@ a img {
     padding: 0 .5rem;
     text-align: center; }
     .document-header nav ul li:hover {
-      color: #371110; }
+      background-color: #598527; }
     .document-header nav ul li a {
       text-shadow: 0px 1px 1px #4d4d4d;
       color: #222;
       text-align: center;
       font-weight: bold; }
       .document-header nav ul li a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #371110;
+        font-weight: bolder; }
 
 @media (max-width: 768px) {
   nav a {
@@ -5833,7 +5835,9 @@ footer {
     font-size: 2rem;
     padding: 1rem; }
     footer address .social-media i, footer form .social-media i {
-      color: #ABA000; }
+      color: #ABA000;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #008000; }
       footer address .social-media i:hover, footer form .social-media i:hover {
         color: #371110; }
 

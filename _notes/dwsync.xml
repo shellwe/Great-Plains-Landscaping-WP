@@ -11,7 +11,7 @@
 <file name="content-none.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561088169823" remote="130769016000000000" Dst="2" />
 <file name="content-single.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561088419838" remote="130769016000000000" Dst="2" />
 <file name="content.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561088529844" remote="130769016000000000" Dst="2" />
-<file name="footer.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799123539208945" remote="130799094000000000" Dst="2" />
+<file name="footer.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799232458187920" remote="130799198400000000" Dst="2" />
 <file name="front-page.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130774931203524006" remote="130774933200000000" Dst="2" />
 <file name="functions.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130774829435753223" remote="130774933200000000" Dst="2" />
 <file name="header.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130775073641137146" remote="130775079600000000" Dst="2" />
@@ -23,8 +23,8 @@
 <file name="sidebar.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561102860664" remote="130769016000000000" Dst="2" />
 <file name="search.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561102810661" remote="130769016000000000" Dst="2" />
 <file name="single.php" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561102970670" remote="130769016000000000" Dst="2" />
-<file name="style.css.map" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799124699105288" remote="130799094000000000" Dst="2" />
-<file name="style.css" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799124681664290" remote="130799094000000000" Dst="2" />
+<file name="style.css.map" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799141604652230" remote="130799198400000000" Dst="2" />
+<file name="style.css" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130799141588631313" remote="130799198400000000" Dst="2" />
 <file name=".gitignore" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130757050100872442" remote="130769016000000000" Dst="2" />
 <file name=".gitattributes" server="50.87.248.138//public_html/testpress/wp-content/themes/gpl/" local="130747561086869749" remote="130769016000000000" Dst="2" />
 </dwsync>

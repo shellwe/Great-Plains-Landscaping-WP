@@ -7,7 +7,7 @@
  * @package Great Plains Landscaping
  */
 ?>
-    <footer class="container-fluid" role="contentinfo">
+    <footer class="container-fluid site-footer" role="contentinfo">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6">

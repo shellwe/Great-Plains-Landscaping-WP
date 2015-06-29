@@ -6462,7 +6462,7 @@ a img {
     text-align: center; }
     /* line 30, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_header.scss */
     .document-header nav ul li:hover {
-      color: #371110; }
+      background-color: #598527; }
     /* line 33, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_header.scss */
     .document-header nav ul li a {
       text-shadow: 0px 1px 1px #4d4d4d;
@@ -6471,10 +6471,12 @@ a img {
       font-weight: bold; }
       /* line 38, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_header.scss */
       .document-header nav ul li a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #371110;
+        font-weight: bolder; }
 
 @media (max-width: 768px) {
-  /* line 48, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_header.scss */
+  /* line 50, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_header.scss */
   nav a {
     padding: .5em 0; } }
 
@@ -6492,11 +6494,15 @@ body {
   background-color: rgba(255, 255, 255, 0.5); }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-footer {
+.site-footer {
   background: #598527;
   border-top: #A0420D thick inset; }
-  /* line 4, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  footer address, footer form {
+  /* line 7, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+  .site-footer .cff-wrapper {
+    margin-top: 1rem;
+    border: inset medium #A0420D; }
+  /* line 13, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+  .site-footer address, .site-footer form {
     background-image: url(img/background.jpg);
     background-color: rgba(255, 255, 255, 0.5);
     border: inset medium #A0420D;
@@ -6504,13 +6510,13 @@ footer {
     margin-top: 1rem;
     font-size: 2rem;
     padding: 1rem; }
-    /* line 13, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-    footer address .social-media i, footer form .social-media i {
+    /* line 22, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+    .site-footer address .social-media i, .site-footer form .social-media i {
       color: #ABA000;
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: #008000; }
-      /* line 17, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-      footer address .social-media i:hover, footer form .social-media i:hover {
+      /* line 26, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+      .site-footer address .social-media i:hover, .site-footer form .social-media i:hover {
         color: #371110; }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_sidebar.scss */
@@ -6884,4 +6890,10 @@ textarea {
 /*--------------------------------------------------------------
 14.0 My Styles
 --------------------------------------------------------------*/
+/* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/my-content/_mystyles.scss */
+.gallery-group {
+  margin-top: 1rem;
+  border: #A0420D medium inset;
+  background-color: #F9FFDC; }
+
 /*# sourceMappingURL=style.css.map */

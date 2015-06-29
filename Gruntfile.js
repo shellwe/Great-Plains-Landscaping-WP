@@ -24,12 +24,18 @@ module.exports = function(grunt) {
 				src: 'js/*.js',
 				dest: 'js/build/final.js'
 			}
+		},
+		watch: {
+		  sass: {
+				files: ['sass/*.scss'],
+				tasks: ['sass'],
+		  },
 		}
+		
 	});
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-sass');
-	// Default task(s).
-	//grunt.registerTask('default', ['sass']);
+	grunt.registerTask('default', ['watch']);
 };

@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6">
-			<div class="banner">We now specialize in Epoxy protective flooring!</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/epoxy.jpg" alt="test" class="img-responsive" />
 		</div>
 		<div class="col-md-4 col-sm-12">
 			<div class="embed-responsive embed-responsive-16by9">
@@ -25,7 +25,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row gallery-group">
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="test" class="img-responsive img-circle img-thumbnail" />
+		</div>
         <br><br><br><br><br><br><br>
     </div>
 </div>

@@ -19,20 +19,14 @@
         ],
         symbols = {
             "stage": {
-                version: "5.0.1",
+                version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
+                build: "6.0.0.400",
                 scaleToFit: "both",
                 centerStage: "none",
                 resizeInstances: false,
                 content: {
                     dom: [
-                        {
-                            id: 'GPLD_full_logo',
-                            type: 'image',
-                            rect: ['0px', '38px', '1140px', '304px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"GPLD%20full%20logo.svg",'0px','0px']
-                        },
                         {
                             id: 'yellow_diamond',
                             type: 'image',
@@ -56,12 +50,18 @@
                             type: 'image',
                             rect: ['160px', '118px', '144px', '144px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"brown%20diamond.svg",'0px','0px']
+                        },
+                        {
+                            id: 'GPLD_full_logo',
+                            type: 'image',
+                            rect: ['0px', '38px', '1140px', '304px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"GPLD%20full%20logo.svg",'0px','0px']
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1140px', '380px'],
+                            rect: ['null', 'null', '1140px', '380px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }

@@ -25,6 +25,18 @@ module.exports = function(grunt) {
 				dest: 'js/build/final.js'
 			}
 		},
+		bootlint: {
+			bootlint: {
+				options: {
+				relaxerror: [],
+				showallerrors: false,
+				stoponerror: false,
+				stoponwarning: false
+				},
+			files: ['*.php']
+			}
+		},
+		
 		watch: {
 		  sass: {
 				files: ['sass/**/*.scss'],
@@ -37,5 +49,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-bootlint');
 	grunt.registerTask('default', ['watch']);
 };

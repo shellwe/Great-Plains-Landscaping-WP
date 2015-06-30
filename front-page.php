@@ -28,16 +28,16 @@
 	<div class="row gallery-group">
 	<h2>View some of our galleries!</h2>
 		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php $permalink = get_permalink(132); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
+			<a href="<?php echo $permalink = get_permalink(132); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
 		</div>
 		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php $permalink = get_permalink(134); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/walls.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
+			<a href="<?php echo $permalink = get_permalink(134); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/walls.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
 		</div>
 		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php $permalink = get_permalink(136); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/concretecurbing.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
+			<a href="<?php echo $permalink = get_permalink(136); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/concretecurbing.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
 		</div>
 		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php $permalink = get_permalink(138); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/waterfeatures.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
+			<a href="<?php echo $permalink = get_permalink(138); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/waterfeatures.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
 		</div>
 	</div>
 </div>

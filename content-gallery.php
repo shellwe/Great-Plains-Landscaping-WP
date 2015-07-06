@@ -9,7 +9,7 @@
 		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content gallery-content">
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 

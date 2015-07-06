@@ -62,3 +62,4 @@ ReCaptcha
 response.php
 
 .sass-cache
+*.xml

@@ -1,34 +1,55 @@
 .site-footer {
-//    h2{
-//        color: white;
-//        -webkit-text-stroke: 1px $green;
-//        text-stroke: 1px $green;
-//    }
-    .cff-wrapper{
-        margin-top: 1rem;
-        border: inset medium $logo-red;
-    }
-    background: $logo-green;
     border-top: $logo-red thick inset;
-    address, form {
-        background-image: url(img/background.jpg);
-        background-color: rgba(255, 255, 255, .5);
-        border: inset medium $logo-red;
-        color: $logo-brown;
-        margin-top: 1rem;
-        font-size: 2rem;
-        padding: 1rem;
-        .social-media{
-            i {
-                color: $logo-yellow;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: $green;
-                &:hover {
-                    color: $logo-brown;
-                }
+    .social-media {
+        
+        -webkit-text-stroke: 1px $green;
+        text-stroke: 1px $green;
+        font-size: 3rem;
+        a{
+            padding:.5rem;
+        }
+        i{
+            color: white;
+            &:hover {
+                color: $logo-brown;
+                transform:scale(1.5,1.5);
             }
         }
     }
+    address {
+        text-align: right;
+        color: white;
+    }
+    //    h2{
+    //        color: white;
+    //        -webkit-text-stroke: 1px $green;
+    //        text-stroke: 1px $green;
+    //    }
+    //    .cff-wrapper{
+    //        margin-top: 1rem;
+    //        border: inset medium $logo-red;
+    //    }
+    //        background: $logo-green;
+    //        border-top: $logo-red thick inset;
+    //    address, form {
+    //        background-image: url(img/background.jpg);
+    //        background-color: rgba(255, 255, 255, .5);
+    //        border: inset medium $logo-red;
+    //        color: $logo-brown;
+    //        margin-top: 1rem;
+    //        font-size: 2rem;
+    //        padding: 1rem;
+    //        .social-media{
+    //            i {
+    //                color: $logo-yellow;
+    //                -webkit-text-stroke-width: 1px;
+    //                -webkit-text-stroke-color: $green;
+    //                &:hover {
+    //                    color: $logo-brown;
+    //                }
+    //            }
+    //        }
+    //    }
     //    form{
     //        border: solid $green thin;
     //        padding: 1rem;

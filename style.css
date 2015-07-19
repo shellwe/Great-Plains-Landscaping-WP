@@ -5815,37 +5815,34 @@ a img {
 body {
   box-sizing: border-box;
   font-size: 10px;
-  background-image: url(img/background.jpg);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  background: #598527; }
 
 .content-area {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url(img/background.jpg); }
 
 .front-page > div {
   margin-bottom: 1rem; }
 
 .site-footer {
-  background: #598527;
   border-top: #A0420D thick inset; }
-  .site-footer .cff-wrapper {
-    margin-top: 1rem;
-    border: inset medium #A0420D; }
-  .site-footer address, .site-footer form {
-    background-image: url(img/background.jpg);
-    background-color: rgba(255, 255, 255, 0.5);
-    border: inset medium #A0420D;
-    color: #371110;
-    margin-top: 1rem;
-    font-size: 2rem;
-    padding: 1rem; }
-    .site-footer address .social-media i, .site-footer form .social-media i {
-      color: #ABA000;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #008000; }
-      .site-footer address .social-media i:hover, .site-footer form .social-media i:hover {
-        color: #371110; }
+  .site-footer .social-media {
+    -webkit-text-stroke: 1px #008000;
+    text-stroke: 1px #008000;
+    font-size: 3rem; }
+    .site-footer .social-media a {
+      padding: .5rem; }
+    .site-footer .social-media i {
+      color: white; }
+      .site-footer .social-media i:hover {
+        color: #371110;
+        transform: scale(1.5, 1.5); }
+  .site-footer address {
+    text-align: right;
+    color: white; }
 
 .sidebar {
   font-size: 2rem;
@@ -5868,7 +5865,8 @@ body {
   .gallery-group h2 {
     text-align: center; }
   .gallery-group img:hover {
-    background: #598527; }
+    background: #598527;
+    transform: scale(1.2, 1.2); }
 
 /*@import "layout/navigation";
 @import "layout/menus";*/
@@ -5937,19 +5935,27 @@ big-font {
 body {
   font-size: 10px; }
 
-.container, container-fluid {
-  font-size: 1.5rem; }
+.container,
+.container-fluid {
+  font-size: 1.7rem; }
 
+p,
+address,
 button,
 input,
 select,
 textarea {
-  font-family: "proxima-nova",sans-serif;
-  font-size: 1.5rem; }
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.7rem; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both;
-  font-family: "tenso",sans-serif;
+  font-family: "tenso", sans-serif;
   color: green;
   margin-top: .25rem;
   margin-bottom: .25rem; }

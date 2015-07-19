@@ -6484,40 +6484,42 @@ a img {
 body {
   box-sizing: border-box;
   font-size: 10px;
-  background-image: url(img/background.jpg);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  background: #598527; }
 
-/* line 9, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
+/* line 10, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
 .content-area {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url(img/background.jpg); }
+
+/* line 18, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_body.scss */
+.front-page > div {
+  margin-bottom: 1rem; }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
 .site-footer {
-  background: #598527;
   border-top: #A0420D thick inset; }
-  /* line 7, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  .site-footer .cff-wrapper {
-    margin-top: 1rem;
-    border: inset medium #A0420D; }
-  /* line 13, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-  .site-footer address, .site-footer form {
-    background-image: url(img/background.jpg);
-    background-color: rgba(255, 255, 255, 0.5);
-    border: inset medium #A0420D;
-    color: #371110;
-    margin-top: 1rem;
-    font-size: 2rem;
-    padding: 1rem; }
-    /* line 22, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-    .site-footer address .social-media i, .site-footer form .social-media i {
-      color: #ABA000;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #008000; }
-      /* line 26, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
-      .site-footer address .social-media i:hover, .site-footer form .social-media i:hover {
-        color: #371110; }
+  /* line 3, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+  .site-footer .social-media {
+    -webkit-text-stroke: 1px #008000;
+    text-stroke: 1px #008000;
+    font-size: 3rem; }
+    /* line 8, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+    .site-footer .social-media a {
+      padding: .5rem; }
+    /* line 11, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+    .site-footer .social-media i {
+      color: white; }
+      /* line 13, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+      .site-footer .social-media i:hover {
+        color: #371110;
+        transform: scale(1.5, 1.5); }
+  /* line 19, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_footer.scss */
+  .site-footer address {
+    text-align: right;
+    color: white; }
 
 /* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_sidebar.scss */
 .sidebar {
@@ -6536,6 +6538,17 @@ body {
     /* line 15, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_sidebar.scss */
     .sidebar ul li {
       list-style-type: none; }
+
+/* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_gallery.scss */
+.gallery-group {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  /* line 4, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_gallery.scss */
+  .gallery-group h2 {
+    text-align: center; }
+  /* line 8, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/layout/_gallery.scss */
+  .gallery-group img:hover {
+    background: #598527; }
 
 /*@import "layout/navigation";
 @import "layout/menus";*/
@@ -6614,44 +6627,44 @@ small-font {
 big-font {
   font-size: 125%; }
 
-/* line 5, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 3, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 body {
   font-size: 10px; }
 
 /* line 8, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
-.container, container-fluid {
-  font-size: 1.5rem; }
+.container, .container-fluid {
+  font-size: 1.7rem; }
 
-/* line 15, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
-button, input, select, textarea {
-  font-family: "proxima-nova",sans-serif;
-  font-size: 1.5rem; }
+/* line 17, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+p, address, button, input, select, textarea {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.7rem; }
 
-/* line 19, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 27, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "tenso",sans-serif;
+  font-family: "tenso", sans-serif;
   color: green;
   margin-top: .25rem;
   margin-bottom: .25rem; }
 
-/* line 27, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 35, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 h2 {
   font-size: 3rem; }
-  /* line 30, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+  /* line 37, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
   h2 .social-media {
     float: right; }
 
-/* line 35, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 42, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 h3 {
   font-size: 2rem; }
 
-/* line 40, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 46, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 .telephone {
   font-size: 3rem;
   text-align: right; }
 
-/* line 45, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
+/* line 51, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/typography/_typography.scss */
 .telephone a {
   color: #ABA000; }
 
@@ -6890,10 +6903,4 @@ textarea {
 /*--------------------------------------------------------------
 14.0 My Styles
 --------------------------------------------------------------*/
-/* line 1, C:/wamp/www/wordpress/wp-content/themes/gpl/sass/my-content/_mystyles.scss */
-.gallery-group {
-  margin-top: 1rem;
-  border: #A0420D medium inset;
-  background-color: #F9FFDC; }
-
 /*# sourceMappingURL=style.css.map */

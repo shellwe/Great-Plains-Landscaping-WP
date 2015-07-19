@@ -1,48 +1,53 @@
 //@import "fontawesome/font-awesome";
-
 @import "copy";
-
-body{
-	font-size:10px;
-}
-.container, container-fluid{
-    font-size: 1.5rem;
+body {
+    font-size: 10px;
 }
 
+.container,
+.container-fluid {
+    font-size: 1.7rem;
+}
+
+p,
+address,
 button,
 input,
 select,
 textarea {
-	font-family: "proxima-nova",sans-serif;
-	font-size: 1.5rem;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1.7rem;
 }
-h1, h2, h3, h4, h5, h6 {
-	clear: both;
-	font-family: "tenso",sans-serif;
-	color:green;	
-	margin-top:.25rem;
-	margin-bottom:.25rem;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-family: "tenso", sans-serif;
+    color: green;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
 }
 
 h2 {
-	font-size: 3rem;
-
-	.social-media {
-		float:right;
-	}
+    font-size: 3rem;
+    .social-media {
+        float: right;
+    }
 }
 
 h3 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
-
-.telephone{
-	font-size:3rem;
-	text-align:right;
+.telephone {
+    font-size: 3rem;
+    text-align: right;
 }
 
-.telephone a{
-	color:#ABA000;
+.telephone a {
+    color: #ABA000;
 }
-

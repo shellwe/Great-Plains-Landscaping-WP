@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="social-media col-sm-4 col-md-3">
-                <a href="http://www.yelp.com/biz/great-plains-landscapes-lincoln" data-toggle="modal" data-target="#contactform"><i class="fa fa-comments"></i></a>
+                <a href="http://www.yelp.com/biz/great-plains-landscapes-lincoln" data-toggle="modal" data-target="#contactform"><i class="fa fa-envelope"></i></a>
                 <a href="https://www.facebook.com/GreatPlainsLandscaping" target="new"><i class="fa fa-facebook-official"></i></a>
                 <a href="https://www.pinterest.com/greatplainsland/" target="new"><i class="fa fa-pinterest-p"></i></a>
                 <a href="https://plus.google.com/107837644911414833271/" target="new"><i class="fa fa-google-plus"></i></a>
@@ -12,8 +12,8 @@
             </div>
 
             <address class="col-sm-8 col-md-9">
-				Great Plains Landscaping &amp; Design Inc. | P.O. Box 383 | Bennet, NE 68317-0383<br/>
-           402-417-6906
+				<p>Great Plains Landscaping &amp; Design Inc. | P.O. Box 383 | Bennet, NE 68317-0383</p>
+           <p class="contactphone">402-417-6906</p>
             </address>
             <!-- Button trigger modal -->
         </div>

@@ -13,7 +13,7 @@
 
             <address class="col-sm-8 col-md-9">
 				<p>Great Plains Landscaping &amp; Design Inc. | P.O. Box 383 | Bennet, NE 68317-0383</p>
-           <p class="contactphone">402-417-6906</p>
+           <p class="contact-phone">402-417-6906</p>
             </address>
             <!-- Button trigger modal -->
         </div>

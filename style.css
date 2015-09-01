@@ -5793,6 +5793,7 @@ a img {
   .document-header .logo img {
     padding: .5rem 0; }
   .document-header nav ul li {
+    width: auto;
     border: #AAAAAA inset thin;
     background-color: #cccccc;
     padding: 0 .5rem;
@@ -5811,7 +5812,7 @@ a img {
 
 @media (max-width: 768px) {
   nav a {
-    padding: .5em 0; } }
+    padding: .5rem 0; } }
 body {
   box-sizing: border-box;
   font-size: 10px;
@@ -5827,22 +5828,23 @@ body {
 .front-page > div {
   margin-bottom: 1rem; }
 
-.site-footer {
-  border-top: #A0420D thick inset; }
-  .site-footer .social-media {
-    -webkit-text-stroke: 1px #008000;
-    text-stroke: 1px #008000;
-    font-size: 3rem; }
-    .site-footer .social-media a {
-      padding: .5rem; }
-    .site-footer .social-media i {
-      color: white; }
-      .site-footer .social-media i:hover {
-        color: #371110;
-        transform: scale(1.5, 1.5); }
-  .site-footer address {
-    text-align: right;
+.site-footer .social-media {
+  -webkit-text-stroke: 1px #008000;
+  text-stroke: 1px #008000;
+  font-size: 3rem; }
+  .site-footer .social-media a {
+    padding: .5rem; }
+  .site-footer .social-media i {
     color: white; }
+    .site-footer .social-media i:hover {
+      color: #371110;
+      transform: scale(1.2, 1.2); }
+.site-footer address {
+  text-align: right;
+  color: white; }
+.site-footer .contact-phone {
+  font-weight: bold;
+  font-size: 2rem; }
 
 .sidebar {
   font-size: 2rem;
@@ -5933,11 +5935,12 @@ big-font {
   font-size: 125%; }
 
 body {
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: "proxima-nova", sans-serif; }
 
 .container,
 .container-fluid {
-  font-size: 1.7rem; }
+  font-size: 2.0rem; }
 
 p,
 address,
@@ -5945,8 +5948,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 1.7rem; }
+  font-size: 2.25rem; }
 
 h1,
 h2,
@@ -5962,8 +5964,6 @@ h6 {
 
 h2 {
   font-size: 3rem; }
-  h2 .social-media {
-    float: right; }
 
 h3 {
   font-size: 2rem; }

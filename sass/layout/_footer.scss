@@ -1,5 +1,4 @@
 .site-footer {
-    border-top: $logo-red thick inset;
     .social-media {
         
         -webkit-text-stroke: 1px $green;
@@ -12,7 +11,7 @@
             color: white;
             &:hover {
                 color: $logo-brown;
-                transform:scale(1.5,1.5);
+                transform:scale(1.2,1.2);
             }
         }
     }

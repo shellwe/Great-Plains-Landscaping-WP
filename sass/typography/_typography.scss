@@ -2,11 +2,13 @@
 @import "copy";
 body {
     font-size: 10px;
+    font-family: "proxima-nova", sans-serif;
 }
+
 
 .container,
 .container-fluid {
-    font-size: 1.7rem;
+    font-size: 2.0rem;
 }
 
 p,
@@ -15,8 +17,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "proxima-nova", sans-serif;
-    font-size: 1.7rem;
+    font-size: 2.25rem;
 }
 
 h1,
@@ -34,9 +35,9 @@ h6 {
 
 h2 {
     font-size: 3rem;
-    .social-media {
-        float: right;
-    }
+//    .social-media {
+//        float: right;
+//    }
 }
 
 h3 {

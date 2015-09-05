@@ -101,12 +101,12 @@ register_nav_menus( array(
 
 add_action( 'widgets_init', 'gpl_widgets_init' );
 
-//This is code for image attachments
-$default_attr = array(
-	'src'	=> $src,
-	'class'	=> "img-responsive attachment-$size",
-	'alt'   => trim(strip_tags( get_post_meta($attachment_id, '_wp_attachment_image_alt', true) )),
-);
+//This is code for image attachments - can't get the code to work
+//$default_attr = array(
+//	'src'	=> $src,
+//	'class'	=> "img-responsive attachment-$size",
+//	'alt'   => trim(strip_tags( get_post_meta($attachment_id, '_wp_attachment_image_alt', true) )),
+//);
 
 /**
  * Enqueue scripts and styles.

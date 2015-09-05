@@ -2,7 +2,7 @@
 <div class="content-area container" id="primary" role="main">
 	<div class="row">
 		<div class="col-md-12">
-            <?php wp_get_attachment_image( 4, 'large', false, $default_attr ); ?>
+            <?php //wp_get_attachment_image( 4, 'large', false, $default_attr ); ?>
         </div>
 	</div>
 	<div class="row">

@@ -4,17 +4,9 @@
 	   <main id="primary" class="content-area content col-md-9 col-sm-8">
 
             <?php if ( have_posts() ) : ?>
-
-                <h2 class="page-header">
-                    <?php
-                        the_archive_title( '<h1 class="page-title">', '</h1>' );
-                        the_archive_description( '<div class="taxonomy-description">', '</div>' );
-                    ?>
-                </h2><!-- .page-header -->
-
-                <?php /* Start the Loop */ ?>
-                <?php while ( have_posts() ) : the_post(); ?>
-
+                
+				<?php while ( have_posts() ) : the_post(); ?>
+                
                     <?php
                         /* Include the Post-Format-specific template for the content.
                          * If you want to override this in a child theme, then include a file
@@ -22,7 +14,6 @@
                          */
                         get_template_part( 'content', get_post_format() );
                     ?>
-
                 <?php endwhile; ?>
 
                 <?php gpl_paging_nav(); ?>

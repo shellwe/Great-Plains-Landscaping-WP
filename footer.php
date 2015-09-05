@@ -22,7 +22,37 @@
     <div class="modal fade" id="contactform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-				<?php include 'ReCaptcha/form.php'; ?>
+                <form method="post" action="reCaptcha/form.php">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control" id="form-name" placeholder="What is your name?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Phone</label>
+                            <input type="tel" name="telephone" class="form-control" id="form-telephone" placeholder="How can we reach you?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail address</label>
+                            <input type="email" name="email" class="form-control" id="form-email" placeholder="What is your e-mail address">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">How may we help?</label>
+                            <input type="textarea" name="comment" class="form-control" id="form-comment" placeholder="How may we help you?">
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6LfJSQYTAAAAAGB3Z6V_5U6QmxvR1ftc24vUU9dt"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" name="submit" id="form-submit" value="Submit" class="btn btn-default">Send</button>
+                    </div>
+                </form>
+				<?php //include 'ReCaptcha/form.php'; ?>
             </div>
         </div>
     </div>

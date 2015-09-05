@@ -101,7 +101,7 @@ register_nav_menus( array(
 
 add_action( 'widgets_init', 'gpl_widgets_init' );
 
-
+//This is code for image attachments
 $default_attr = array(
 	'src'	=> $src,
 	'class'	=> "img-responsive attachment-$size",

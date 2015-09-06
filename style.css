@@ -5819,10 +5819,12 @@ body {
   background: #598527; }
 
 .content-area {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: rgba(255, 255, 255, 0.5);
   background-image: url(img/background.jpg); }
+
+.content-area {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .front-page > div {
   margin-bottom: 1rem; }
@@ -5859,6 +5861,12 @@ body {
     padding-left: 0px; }
     .sidebar ul li {
       list-style-type: none; }
+  .sidebar a {
+    color: #371110; }
+    .sidebar a:hover {
+      color: #A0420D; }
+    .sidebar a:visited {
+      color: #ABA000; }
 
 .gallery-group {
   margin-top: 1rem;

@@ -16,4 +16,13 @@
 			list-style-type: none;
 		}
 	}
+	a{
+		color:$logo-brown;
+		&:hover{
+			color:$logo-red;
+		}
+		&:visited{
+			color:$logo-yellow;
+		}
+	}
 }

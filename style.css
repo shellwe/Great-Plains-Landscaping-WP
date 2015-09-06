@@ -5963,7 +5963,7 @@ button,
 input,
 select,
 textarea {
-  font-size: 2.25rem; }
+  font-size: 2rem; }
 
 h1,
 h2,
@@ -5977,11 +5977,17 @@ h6 {
   margin-top: .25rem;
   margin-bottom: .25rem; }
 
-h2 {
+h1 {
   font-size: 3rem; }
 
+h2 {
+  font-size: 2.75rem; }
+
 h3 {
-  font-size: 2rem; }
+  font-size: 2.5rem; }
+
+h4 {
+  font-size: 2.25rem; }
 
 .telephone {
   font-size: 3rem;

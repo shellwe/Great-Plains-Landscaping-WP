@@ -5793,7 +5793,6 @@ a img {
   .document-header .logo img {
     padding: .5rem 0; }
   .document-header nav ul li {
-    width: auto;
     border: #AAAAAA inset thin;
     background-color: #cccccc;
     padding: 0 .5rem;
@@ -5869,6 +5868,22 @@ body {
   .gallery-group img:hover {
     background: #598527;
     transform: scale(1.2, 1.2); }
+
+.content-archive article:not(:last-child) {
+  margin-bottom: 2rem;
+  border-bottom: thin groove #598527; }
+.content-archive article .entry-header h1 {
+  font-size: 3rem; }
+  .content-archive article .entry-header h1 a {
+    color: #371110; }
+.content-archive article .entry-header .entry-meta {
+  display: none; }
+.content-archive article .entry-content {
+  background-color: rgba(255, 255, 128, 0.2);
+  border: thin groove #A0420D;
+  padding: 1rem; }
+.content-archive article .entry-footer {
+  display: none; }
 
 /*@import "layout/navigation";
 @import "layout/menus";*/

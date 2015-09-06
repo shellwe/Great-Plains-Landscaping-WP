@@ -26,4 +26,5 @@
 	<footer class="entry-footer">
 		<?php gpl_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+    <br>
 </article><!-- #post-## -->

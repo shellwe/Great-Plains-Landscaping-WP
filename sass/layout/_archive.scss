@@ -1,0 +1,27 @@
+.content-archive{
+	article{
+		&:not(:last-child){
+			margin-bottom:2rem;
+			border-bottom:thin groove $logo-green;
+		}
+		.entry-header{
+			h1{
+				font-size:3rem;
+				a{
+					color:$logo-brown;	
+				}
+			}
+			.entry-meta{
+				display:none;
+				}
+		}
+		.entry-content{
+			background-color:rgba(255,255,128,0.2);
+			border:thin groove $logo-red;
+			padding:1rem;
+		}
+		.entry-footer{
+			display:none;
+		}
+	}
+}

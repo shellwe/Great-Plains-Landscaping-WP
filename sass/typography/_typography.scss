@@ -34,6 +34,26 @@ h6 {
 }
 h1 {
     font-size: 3rem;
+    &.entry-title{
+        text-align: center;
+        &:before {
+            display:inline-block;
+            font-family: FontAwesome;
+            content: "\00a0 \00a0 \f06c \00a0 \00a0 \f06c \00a0 \00a0 \f06c \00a0 \00a0";
+            overflow: hidden;
+            }
+        &:after {
+            display:inline-block;
+            font-family: FontAwesome;
+            content: "\00a0 \00a0 \f06c \00a0 \00a0 \f06c \00a0 \00a0 \f06c \00a0 \00a0";
+            -webkit-transform:rotateY(180deg);
+            -moz-transform:rotateY(180deg);
+            -o-transform:rotateY(180deg);
+            -ms-transform:rotateY(180deg);
+             transform:rotateY(180deg);
+            overflow: hidden;
+            }
+    }
 }
 h2 {
     font-size: 2.75rem;

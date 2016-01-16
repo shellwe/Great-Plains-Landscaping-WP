@@ -2,7 +2,7 @@
 	article{
 		&:not(:last-child){
 			margin-bottom:2rem;
-			border-bottom:thin groove $logo-green;
+			//border-bottom:thin groove $logo-green;
 		}
 		.entry-header{
 			h1{
@@ -17,7 +17,7 @@
 		}
 		.entry-content{
 			background-color:rgba(255,255,128,0.2);
-			border:thin groove $logo-red;
+			border-top:thin solid $logo-red;
 			padding:1rem;
 		}
 		.entry-footer{

@@ -27,18 +27,60 @@
 	</div>
 	<div class="row gallery-group">
 	<h2>View some of our galleries!</h2>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php echo $permalink = get_permalink(132); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
-		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php echo $permalink = get_permalink(134); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/walls.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
-		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php echo $permalink = get_permalink(136); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/concretecurbing.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
-		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<a href="<?php echo $permalink = get_permalink(138); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/waterfeatures.jpg" alt="test" class="img-responsive img-circle img-thumbnail" /></a>
-		</div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(132); ?>">link here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/walls.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(134); ?>">link here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/concretecurbing.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(136); ?>">link here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/waterfeatures.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(138); ?>">link here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(132); ?>">link here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <div class="hovereffect">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/patiowalkway.jpg" alt="">
+                <div class="overlay">
+                   <h2>Gallery Name</h2>
+                   <a class="info" href="<?php echo $permalink = get_permalink(132); ?>">link here</a>
+                </div>
+            </div>
+        </div>
 	</div>
 </div>
 <?php get_footer(); ?>

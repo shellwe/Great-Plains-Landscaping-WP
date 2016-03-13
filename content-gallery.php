@@ -16,7 +16,7 @@
         <!-- .entry-content -->
 
 
-
+        <p>test - does this page work? YES IT DOES!!!</p>
         <?php 
     $args = array(
 

@@ -21,7 +21,7 @@
     $args = array(
 
         "post_status"=>"publish",
-        "post_type"=>"Image", // I'm not sure if its a custom post type or not.
+        "post_type"=>"image", // I'm not sure if its a custom post type or not.
         "posts_per_page"=>100 // how many do you want to see?
 
     );
